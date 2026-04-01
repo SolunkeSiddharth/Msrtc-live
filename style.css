@@ -1,0 +1,247 @@
+/* ===== COMMON STYLES (All pages) ===== */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e2d3;
+}
+
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ===== HOME PAGE STYLES ===== */
+
+.home-container {
+    
+    text-align: center;
+
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-icon {
+    font-size: 100px;
+    color: #c21b1b;
+    margin-bottom: 10px;
+}
+
+.home-title {
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.home-subtitle {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.btn-driver {
+    background-color: #c21b1b;
+    color: white;
+    margin-bottom: 25px;
+    width:400px;
+    height:73px;
+}
+
+.btn-passenger {
+    background-color: #8cf094;
+    color: black;
+    border: 1px solid #d0d0d0;
+    width:400px;
+    height:73px;
+}
+/* ===== DRIVER PAGE ===== */
+
+
+    .driver-page {
+    background: linear-gradient(#e7e2d3);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+/* Back button container */
+
+.back-form {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Back button */
+
+.back-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(135deg, #ff4d4d, #cc0000);
+    font-size: 20px;
+    color:  white;
+    cursor: pointer;
+}
+
+/* Driver card */
+
+.driver-card {
+    background: #f2f2f2;
+    width: 95%;
+    max-width: 350px;
+    margin: 120px auto 0 auto;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* Title */
+
+.driver-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Input fields */
+
+.driver-card input,
+.driver-card select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Status row */
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Status dot */
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-offline {
+    background: red;
+}
+
+.status-online {
+    background: green;
+}
+
+/* Buttons */
+
+#startTracking {
+    background: #1f7a3f;
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+   
+    font-size: 20px;
+}
+
+#stopTracking {
+    background: #b4a4a4;
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+   
+    font-size: 20px;
+}
+/* ===== PASSENGER PAGE ===== */
+
+.passenger-title {
+    margin-bottom: 20px;
+}
+
+/* Bus grid layout */
+
+#backbutton{
+    background: linear-gradient(135deg, #ff4d4d, #cc0000);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;}
+
+
+
+/* Bus number */
+
+.bus-number {
+    font-weight: bold;
+}
+
+/* Route */
+
+.bus-route {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Map header */
+
+.map-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Map container */
+
+
+#map {
+width:100%;
+height:500px;
+margin-top:20px;
+}
+
+.bus-grid {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+padding:15px;
+}
+
+.bus-card {
+background:white;
+padding:15px;
+border-radius:10px;
+border:1px solid #ddd;
+cursor:pointer;
+}
